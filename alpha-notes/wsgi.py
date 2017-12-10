@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "alphanotes.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "alpha-notes.settings")
 
 application = get_wsgi_application()
